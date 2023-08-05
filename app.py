@@ -13,7 +13,7 @@ st.write('The dataset has {} rows and {} columns'.format(df.shape[0], df.shape[1
 
 st.write('The columns are: {}'.format(', '.join(df.columns)))
 st.write('Data Preview:')
-st.dataframe(df.head(20))
+st.dataframe(df.head(100))
 
 
 
